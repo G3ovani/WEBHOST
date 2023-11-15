@@ -10,7 +10,7 @@
     <div class="navbar-container">
         <nav>
             <a href="#"><img src="assets/img/image-removebg-preview (1).png" alt="logotipo"
-             class="logo"></a>
+             class="logo" id="home"></a>
              <ul class="navbar-itens">
                 <li><a href="#">Home</a></li> <!--Codigo de GEOVANI -->
                 <li><a href="#planos">Planos</a></li>
@@ -22,7 +22,7 @@
     <header>
         <h1>WEB HOSTING</h1><br>
         <img src="assets/img/image-removebg-preview (1).png" alt="">
-        <h2>A melhor opção para sua hospedagem</h2>
+        <h2 class="peixe">A melhor opção para sua hospedagem</h2>
     </header>
     <section class="specialties-container">
         <ul>
@@ -67,7 +67,7 @@
             </div>
             <div class="plano">
                 <ul>
-                    <li class="preco bizaRED">R$ 100,00</li>
+                    <li class="preco red">R$ 100,00</li>
                     <li class="nome-plano">DEDICADO PLUS</li>
                     <li>100GB de armazenamento</li>
                     <li>100 Subdominios</li>
@@ -90,7 +90,26 @@
                 </ul>
             </div>
         </div>
-        <i class="fa fas fa-circle-up"></i>
+        <a href="#home"><i class="fa fas fa-circle-up 2x"></i></a>
+    </section>
+    <section class="buscar-dominio">
+        <h2>Buscar um Dominio</h2>
+        <p>Veja se o dominio que você deseja esta disponivel</p>
+        <form action="">
+            <input type="text" placeholder="digite o dominio deseja">
+            <input type="submit" value="Buscar Dominio">
+        </form>
+    </section>
+    <section class="contato-container">
+        <h2 id="contato">Entre em contato</h2>
+        <p>Entre em contato para avaliarmos sua melhor hospedagem</p>
+        <form action="">
+            <input type="text" name="name" placeholder="Digite seu nome">
+            <input type="email" name="email" placeholder="Digite seu e-mail">
+            <textarea name="" id="message" placeholder="Digite sua mensagem"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <a href="#home"> <i class="fas fa-circle-up 2x"></i></a>
     </section>
     <script src="https://kit.fontawesome.com/67e5e50051.js" crossorigin="anonymous"></script>
 </body>
